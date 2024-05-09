@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "matrix-traversal"
+version = "0.1.0"
+description = ""
+authors = ["Cotang01 <127985804+Cotang01@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+pytest-aiohttp = "^1.0.5"
+aiohttp-test-utils = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
